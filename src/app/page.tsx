@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
@@ -81,15 +84,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="border-t border-border/10">
-        <div className="container mx-auto px-4 py-6">
-          <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Tarandeep Singh. All rights reserved.
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
